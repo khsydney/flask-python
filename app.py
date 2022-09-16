@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, World!"
+    return "Hello, World!! This is branch test-bug-with-line-selected"
 
 @app.route("/ping")
 def ping():
